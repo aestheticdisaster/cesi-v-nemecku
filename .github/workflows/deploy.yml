@@ -61,6 +61,9 @@ jobs:
       - name: List repo root contents
         run: ls -la
       
+      - name: List cesi-v-nemecku folder contents
+        run: ls -la cesi-v-nemecku
+
 
       - name: Build with Next.js
         run: pnpm run build
