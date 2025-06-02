@@ -58,6 +58,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
 
+      - name: List repo root contents
+        run: ls -la
+      
+
       - name: Build with Next.js
         run: pnpm run build
         env:
