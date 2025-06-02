@@ -24,9 +24,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-       run:
-	working-directory: ./cesi-v-nemecku/
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,9 +37,8 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-	  cache-dependency-path: cesi-v-nemecku/package-lock.json
           node-version: 22
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: Install dependencies
         run: pnpm install
