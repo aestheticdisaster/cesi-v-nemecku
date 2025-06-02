@@ -41,7 +41,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: cd cesi-v-nemecku && npm install
 
       - name: Setup Pages
         id: setup_pages
@@ -69,7 +69,7 @@ jobs:
 
 
       - name: Build with Next.js
-        run: npm run build
+        run: cd cesi_v_nemecku && npm run build
         env:
           PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
 
