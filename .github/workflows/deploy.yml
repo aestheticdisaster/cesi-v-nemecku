@@ -37,6 +37,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
+	  cache-dependency-path: cesi-v-nemecku/package-lock.json
           node-version: 22
           cache: 'pnpm'
 
