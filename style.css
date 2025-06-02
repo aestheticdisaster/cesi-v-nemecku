@@ -1,0 +1,25 @@
+.main-heading {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 7%;
+    background-color: aliceblue;
+}
+
+.p {
+    background-color: beige;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.nav {
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    font-size: larger;
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
