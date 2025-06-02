@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: "/cesi-v-nemecku",
+  output: "export",
 };
 
 export default nextConfig;
