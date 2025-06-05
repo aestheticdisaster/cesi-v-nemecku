@@ -5,11 +5,11 @@ import Top from "./Top";
 export default function Home() {
   return (
     <div className="">
-      <div className="text-4xl p-3 bg-amber-500 text-center">K 2.6.2025 byly řešeny technické problémy s GitHub Actions, obsah bude dodán v nejbližší možné době</div>
+      <div className="text-xl p-2 bg-amber-500 text-center">K 2.6.2025 byly řešeny technické problémy s GitHub Actions, obsah bude dodán v nejbližší možné době</div>
       <Top/>
       <header>
         <Navbar/>
-        <h1 className="text-2xl p-3 pl-10 bg-gradient-to-l from-yellow-800 to-yellow-300">HLAVNÍ STRÁNKA</h1>
+        <h1 className="text-2xl p-4 pl-10 bg-gradient-to-l from-yellow-800 to-yellow-300">HLAVNÍ STRÁNKA</h1>
       </header>
     <main>
       <link href="./output.css" rel="stylesheet"></link>
