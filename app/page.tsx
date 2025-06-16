@@ -8,7 +8,7 @@ import Footer from "./footer";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-black">
       <div className="text-xl p-2 bg-amber-500 text-center hover:text-white transition-all duration-500 hover:bg-amber-600">K 2.6.2025 byly řešeny technické problémy s GitHub Actions, obsah bude dodán v nejbližší možné době</div>
     <MainNavbar />
     <div>
