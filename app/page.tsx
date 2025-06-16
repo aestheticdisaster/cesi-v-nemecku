@@ -4,6 +4,7 @@ import Top from "./Top";
 import Flag from "../public/Flag_of_Germany_(3-2).svg.png"
 import WideFlag from "../public/Flag_of_Germany_(16-9).png"
 import MainNavbar from "./mainnavbar";
+import Footer from "./footer";
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
     <MainNavbar />
     <div>
       <div className="relative min-h-screen bg-wideFlag flex items-center justify-start bg-center bg-cover bg-no-repeat scale-y-90 -mt-14">
-        <div className="absolute inset-0 bg-black/20 z-0" />
+        <div className="absolute inset-0 bg-black/20 bg-gradient-to-l from-black/0 to-black/90 z-0" />
         <h1 className="relative text-7xl text-white font-extrabold p-5 pl-20 mt-48 scale-105">Češi v Německu</h1>
       </div>
     </div>
+    <Footer />
     </div>
   );
 }
