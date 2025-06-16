@@ -8,9 +8,9 @@ export default function ZakladniInformace() {
               <Top/>
               <header>
                 <Navbar/>
-                <h1 className="text-2xl p-4 pl-10 bg-gradient-to-l from-yellow-800 to-yellow-300">ZÁKLADNÍ INFORMACE</h1>
+                <h1 className="text-2xl p-4 pl-10 bg-gradient-to-l from-black via-yellow-900 to-yellow-700 text-white">ZÁKLADNÍ INFORMACE</h1>
               </header>
-            <main className="bg-black min-h-screen">
+            <main className="bg-black min-h-screen bg-gradient-to-tl from-black via-black to-red-950">
               <link href="./output.css" rel="stylesheet"></link>
               <div className="text-left flex mx-auto justify-center max-w-6xl">
                 <h2 className="text-2xl p-5 mt-10 text-white">Stručný přehled</h2>
