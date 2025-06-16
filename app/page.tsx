@@ -1,22 +1,21 @@
 import Navbar from "./navbar";
-import OStrance from "./o-strance";
+import OStrance from "./o-strance/page";
 import Top from "./Top";
+import Flag from "../public/Flag_of_Germany_(3-2).svg.png"
+import WideFlag from "../public/Flag_of_Germany_(16-9).png"
+import MainNavbar from "./mainnavbar";
 
 export default function Home() {
   return (
     <div className="">
-      <div className="text-xl p-2 bg-amber-500 text-center">K 2.6.2025 byly řešeny technické problémy s GitHub Actions, obsah bude dodán v nejbližší možné době</div>
-      <Top/>
-      <header>
-        <Navbar/>
-        <h1 className="text-2xl p-4 pl-10 bg-gradient-to-l from-yellow-800 to-yellow-300">HLAVNÍ STRÁNKA</h1>
-      </header>
-    <main>
-      <link href="./output.css" rel="stylesheet"></link>
-      <div className="min-h-screen text-center flex mx-auto justify-center bg-white max-w-6xl">
-        <h1 className="text-4xl p-5 mt-10">OBSAH BRZY</h1>
+      <div className="text-xl p-2 bg-amber-500 text-center hover:text-white transition-all duration-500 hover:bg-amber-600">K 2.6.2025 byly řešeny technické problémy s GitHub Actions, obsah bude dodán v nejbližší možné době</div>
+    <MainNavbar />
+    <div>
+      <div className="relative min-h-screen bg-wideFlag flex items-center justify-start bg-center bg-cover bg-no-repeat scale-y-90 -mt-14">
+        <div className="absolute inset-0 bg-black/20 z-0" />
+        <h1 className="relative text-7xl text-white font-extrabold p-5 pl-20 mt-48 scale-105">Češi v Německu</h1>
       </div>
-    </main>
+    </div>
     </div>
   );
 }
