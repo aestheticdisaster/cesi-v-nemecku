@@ -19,7 +19,7 @@ export default function OStrance() {
                     <h1 className="text-white text-2xl p-5 mx-auto flex justify-center pt-20">Osobní vztah k problematice</h1>
                     <p className="text-white text-xl p-5 text-center">Německo je mou nejnavštěvovanější zemí ze všech sousedních zemí České republiky. Zároveň se už 8 let učím němčinu na vlastní pěst a měla jsem i tu čest již potkat několik Čechů, kteří dlouhodobě žili a pracovali v Německu (a mimo jiné i v Rakousku). Přes tyto zkušenosti mi rozhodně nechybí motivace toto téma hlouběji zkoumat, a to jak pro vlastní zájem, tak i pro přímočarý účel splnění semestrální práce.</p>
                     <h1 className="text-white text-2xl p-5 mx-auto flex justify-center pt-20">Použité zdroje</h1>
-                    <p className="text-white text-xl p-5"></p>
+                    <p className="text-white text-xl p-5"> Germany Map by Vemaps.com</p>
                 </div>
             </div>
             <Footer />

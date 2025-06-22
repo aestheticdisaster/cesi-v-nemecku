@@ -16,7 +16,7 @@ export default function Home() {
     <div>
       <div className="relative min-h-screen bg-lionflag flex items-center justify-start bg-center bg-cover bg-no-repeat scale-y-90 -mt-14">
         <div className="absolute inset-0 bg-black/20 bg-gradient-to-l from-black/0 to-black/90 z-0" />
-        <h1 className="relative text-7xl text-white font-extrabold p-5 pl-20 mt-48 scale-105">Češi v Německu</h1>
+        <h1 className="relative text-7xl text-white font-extrabold p-5 pl-20 mt-48 scale-105 animate-slideInLeft">Češi v Německu</h1>
       </div>
     </div>
     <div className="mt-20 min-h-screen">
