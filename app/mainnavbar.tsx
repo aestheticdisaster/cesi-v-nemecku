@@ -11,9 +11,9 @@ export default function MainNavbar() {
             </div>
 
             <div className="">
-                <Link href="/zakladni-informace" className="text-white font-extrabold hover:text-yellow-400 p-2 rounded-md text-md lg:text-xl md:text-lg sm:text-md transition-all duration-500 lg:m-7">Základní informace</Link>
-               
+                <Link href="/zakladni-informace" className="text-white font-extrabold hover:text-yellow-400 p-2 rounded-md text-md lg:text-xl md:text-lg sm:text-md transition-all duration-500 lg:m-7">Základní informace</Link>              
                 <Link href="/o-strance" className="text-white font-extrabold hover:text-yellow-400 p-2 text-md lg:text-xl md:text-lg sm:text-md transition-all duration-500 lg:m-7">O stránce</Link>
+                <Link href="/interaktivni-mapa" className="text-white font-extrabold hover:text-yellow-400 p-2 text-md lg:text-xl md:text-lg sm:text-md transition-all duration-500 lg:m-7">Interaktivní mapa</Link>
             </div>
 
             <div className="w-44"></div>
