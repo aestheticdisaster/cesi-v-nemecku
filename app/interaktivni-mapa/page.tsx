@@ -12,11 +12,11 @@ export default function InteraktivniMapa() {
             <h1 className="text-2xl p-4 pl-10 bg-gradient-to-l from-black via-yellow-900 to-yellow-700 text-white">INTERAKTIVNÍ MAPA</h1>
             <div className="bg-gradient-to-tl from-black via-black to-red-950 mx-auto min-h-screen justify-center">
                 <div>
-                    <h1 className="text-2xl mx-auto max-w-6xl text-center justify-center text-white p-5 pt-10">Interaktivní mapa</h1>
-                    <p className="text-xl max-w-6xl text-white justify-center mx-auto text-center">Níže se nachází mapa s jednotlivými spolkovými zeměmi Německa. Při rozkliknutí jednotlivého regionu je možné se dozvědět více informací. Některé regiony jsou zmapovány lépe, než jiné. </p>
+                    <h1 className="text-2xl mx-auto max-w-6xl text-center justify-center text-white p-5 pt-10 animate-fadeIn">Interaktivní mapa</h1>
+                    <p className="text-xl max-w-6xl text-white justify-center mx-auto text-center animate-slideInLeft">Níže se nachází mapa s jednotlivými spolkovými zeměmi Německa. Při rozkliknutí jednotlivého regionu je možné se dozvědět více informací. Některé regiony jsou zmapovány lépe, než jiné. </p>
                 </div>
                 <div>
-                    <div className=" flex justify-center mx-auto">
+                    <div className=" flex justify-center mx-auto animate-slideInLeft">
                         <svg baseProfile="tiny" fill="#3b3b3b" height="1000" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" strokeWidth=".5" version="1.2" viewBox="0 0 1000 1000" width="1000" xmlns="http://www.w3.org/2000/svg">
                             <g id="features">
                                 <Link title="Sachsen" href="/interaktivni-mapa">
