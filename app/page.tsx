@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <div className="flex lg:flex-row flex-col justify-center lg:text-right text-center items-center text-pretty lg:space-x-10 space-x-0 max-w-6xl mx-auto p-5">
         <p className="text-xl text-white lg:p-5 p-2 animate-slideInLeft">Češi žijí v Německu v odhadovaném počtu 50 000 osob, přičemž nejvíce se zdržují s oblasti Bavorska, a to hlavně v okolí v Mnichova. Další skupiny se ale nachází i v Porýní-Vestfálsku, další menší skupiny v městských aglomeracích Hamburk, Berlín a další. V těchto a jiných oblastech se taktéž můžeme setkat s krajanskými spolky, čímž jsou různé školy, spolky všeho druhu, nebo i restaurace.</p>
-        <img src="960px-Stadtbild_München.jpg" className="rounded-xl animate-slideInLeft lg:max-w-xl max-w-md mx-auto justify-center"/>
+        <img src="960px-Stadtbild_München.jpg" className="rounded-xl animate-slideInLeft lg:max-w-xl max-w-sm mx-auto justify-center"/>
       </div>
     </div>
     <Footer />
