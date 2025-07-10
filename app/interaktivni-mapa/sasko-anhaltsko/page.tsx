@@ -1,5 +1,6 @@
 import Navbar from "@/app/navbar";
 import Top from "@/app/Top";
+import Link from "next/link";
 
 export default function SaskoAnhaltsko() {
     return (
@@ -18,6 +19,9 @@ export default function SaskoAnhaltsko() {
                     <p className="text-white text-xl">djddddddddddddddddddddddddddsi</p>
                 </div>
             </div>
+            <footer className="fixed bottom-10 right-10">
+                <Link href="/interaktivni-mapa" className="text-white text-xs lg:text-lg bg-red-900 px-5 py-2 rounded-lg hover:bg-red-600">Zpět</Link>
+            </footer>
         </div>
     );
 }
