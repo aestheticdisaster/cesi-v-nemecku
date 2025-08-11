@@ -50,7 +50,7 @@ export default function Home() {
       <div className="flex lg:flex-row flex-col justify-center text-center mt-20">
         <Link href="/zakladni-informace" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Základní informace</Link>
         <Link href="/o-strance" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">O stránce</Link>
-        <Link href="/interaktivni-mapa" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Základní informace</Link>
+        <Link href="/interaktivni-mapa" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Interaktivní mapa</Link>
       </div>
     </div>
     <Footer />
