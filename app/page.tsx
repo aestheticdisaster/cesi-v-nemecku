@@ -38,19 +38,19 @@ export default function Home() {
         <h1 className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Proč zrovna Německo?</h1>
       </div>
       <div className="flex lg:flex-row flex-col space-y-20 lg:space-y-40 justify-center text-center max-w-6xl items-center mx-auto lg:space-x-32">
-        <p className="text-white lg:text-xl text-lg p-20 animate-fadeIn bg-red-900 rounded-3xl">PLACEHOLDER</p>
-        <p className="text-white lg:text-xl text-lg p-20 animate-fadeIn bg-red-900 rounded-3xl">PLACEHOLDER</p>
+        <p className="text-white lg:text-xl text-lg p-20 animate-fadeIn bg-red-900 rounded-3xl">Pracovní příležitosti, vzdělání...</p>
+        <p className="text-white lg:text-xl text-lg p-20 animate-fadeIn bg-red-900 rounded-3xl">Atmosféra, lidé...</p>
       </div>
       <div className="flex justify-center text-center max-w-6xl items-center mx-auto lg:space-x-20">
-        <p className="text-white lg:text-xl text-lg p-20 animate-fadeIn bg-red-900 rounded-3xl mt-20">PLACEHOLDER</p>
+        <p className="text-white lg:text-xl text-lg p-20 animate-fadeIn bg-red-900 rounded-3xl mt-20">Příroda, památky...</p>
       </div>
       <div className="flex justify-center text-center mt-20">
         <h1 className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Další zajímavosti na jednotlivých stránkách!</h1>
       </div>
       <div className="flex lg:flex-row flex-col justify-center text-center mt-20">
-        <Link href="/zakladni-informace" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Základní informace</Link>
-        <Link href="/o-strance" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">O stránce</Link>
-        <Link href="/interaktivni-mapa" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Interaktivní mapa</Link>
+        <Link href="/zakladni-informace" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn hover:text-yellow-400 transition-all duration-500">Základní informace</Link>
+        <Link href="/o-strance" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn hover:text-yellow-400 transition-all duration-500">O stránce</Link>
+        <Link href="/interaktivni-mapa" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn hover:text-yellow-400 transition-all duration-500">Interaktivní mapa</Link>
       </div>
     </div>
     <Footer />
