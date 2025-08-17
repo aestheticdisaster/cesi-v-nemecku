@@ -19,6 +19,10 @@ export default function Sasko() {
                     <h2 className="text-2xl text-white animate-fadeIn">Výběr zdejších krajanských spolků</h2>
                     <p className="text-white animate-slideInLeft text-xl text-pretty p-5">- ČESKÁ ŠKOLA BEZ HRANIC DRÁŽĎANY</p>
                     <p className="text-white animate-slideInLeft text-xl text-pretty p-5 max-w-xl text-center">- NADACE MOST – STIFTUNG BRÜCKE/MOST ZUR FÖRDERUNG DER DEUTSCH-TSCHECHISCHEN VERSTÄNDIGUNG UND ZUSAMMENARBEIT</p>
+                    <h2 className="text-2xl text-white animate-fadeIn mt-10">Počet Čechů zaměstantných v dané spolkové zemi (odvádějících sociální pojištění)</h2>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty p-5">Data z roku 2014: 2950</p>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty">Data z roku 2024: 15 660</p>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty p-5 max-w-6xl text-center">Zde vidíme trend růstu počtu zaměstnaných Čechů v Sasku. Sasko je ideální lokací pro pendlery z očividných důvodů - je to jedna ze dvou spolkových zemí Německa, se kterou ČR sousedí přímo. Pro krátkou vzdálenost je tak lokace oblíbená i u výletníků, protože zejména v centru Drážďan se vám občas stane, že uslyšíte češtinu pomalu častěji než němčinu. Sasko může nabídnout i hezkou přírodu. </p>
                 </div>
             </div>
             <footer className="fixed bottom-10 right-10">

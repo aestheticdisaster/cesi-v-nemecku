@@ -16,7 +16,10 @@ export default function Bremy() {
                             <path d="M120.7 90.6l3.6 1.3 1.6 0.3 3-0.1 0.4 0.1 0.1 0.2-0.3 0.4-0.2 0.3-0.2 0.3-0.1 0.3-0.1 0.5 0.1 0.7 0.2 0.6 0.6 1.2 0.2 0.9 0.5 2.5 0.1 1-0.1 0.8-0.1 0.6-0.1 0.4-1.1 1.8-1.5 1.4-0.2 0.1-0.1 0-0.1-0.1-0.2-0.2-0.5-1-0.1 0-0.1 0-0.5 0.2-0.4-0.4-0.9-1.7-0.3-0.5 0.7-3.3-0.4-0.6-1.9-4.8-0.5-0.7-0.8-1.7-0.3-0.8z m3.8 49.6l0.1 0 1.4-0.5 0.3 0 2.1 1.3 4.3 1.8 0.9 0.2 0.8-0.1 0.2 0 0.1-0.1 0.1-0.1 0.3-0.1 1.7-0.1 0.9 0.1 0.1 0.1 0.1 0.2 0.1 0.1 0 0.2 0 0.2-0.1 0.2 0.2 0.3 0.4 0.3 1.6 1 0.3 0.2 2.1-0.1 0.9 0.2 0.1 0.1 1.1 1.1 1.4 1.1 2.6 1.2 0.6 0.2 0.4-0.1 0.2-0.1 0.2-0.2 0.1-0.2 0-0.2 0.1-0.3 0.1-0.4 0.4-0.8 0.1-0.3 0.2-0.3 0.3-0.2 0.3 0 0.2 0.2 0.7 0.7 1.7 2 0.2 0.3 0 0.2-0.2 0.3-0.9 0.8-0.1 0.3-0.1 0.2 0.3 0.7 1.8 2 0.2 0.3 0.1 0.4-0.1 0.3-0.5 0.7-0.2 0.5-0.2 0.7-0.1 1.7-0.1 0.7-0.1 0.4-1.1 1.2-2.5 1.9-0.6 0.3-3.6-2.8 0 0.1 0 0.2 0 0.3 0 0.4-0.2 0.3-0.3 0.2-1 0.3-0.8-0.1-0.7-0.2-3.4-2.2-0.4-0.1-0.3 0-0.7 0.3-2.8 0.5-1.1-0.2-0.1-0.1-0.1-0.1 0-0.1 0-0.1 0-0.2 0-3.1 0-0.4-0.2-0.3-0.5-0.3-2.8-3.3-1.2-1.8-0.1-0.5-0.2-0.6 0-0.3-0.1-2.2-1.1-2.1-0.4-0.4-1.6 0.2-0.8-0.1-1.8-1.2-3-1.3-0.6-1.3-0.2-0.8-0.4-0.8 1.6-0.3 0.8 0.2 2.3 1.5 0.3 0.1z" id="DEHB" name="Bremen"></path>
                         </g>               
                     </svg>
-                    <p className="text-white text-xl">djddddddddddddddddddddddddddsi</p>
+                    <h2 className="text-2xl text-white animate-fadeIn">Počet Čechů zaměstnaných v dané spolkové zemi (odvádějících sociální pojištění)</h2>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty p-5">Data z roku 2014: 60</p>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty">Data z roku 2024: 100</p>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty p-5 max-w-6xl text-center">Brémy jsou vzdálené jak od hranic ČR, tak i od největších českých skupin v Německu. Z toho lze usuzovat, že dají Češi přednost jiné lokaci, která má zkrátka "lepší a více zajeté" podmínky. Oblast je taktéž dosti malá a pokud by někdo chtěl do většího města, Mnichov nebo Berlín jsou rozhodně velmi často na pořadníku dříve.</p>
                 </div>
             </div>
             <footer className="fixed bottom-10 right-10">

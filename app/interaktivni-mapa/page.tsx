@@ -13,7 +13,7 @@ export default function InteraktivniMapa() {
             <div className="bg-gradient-to-tl from-black via-black to-red-950 mx-auto min-h-screen justify-center">
                 <div>
                     <h1 className="text-2xl mx-auto max-w-6xl text-center justify-center text-white p-5 pt-10 animate-fadeIn">Interaktivní mapa</h1>
-                    <p className="text-xl max-w-6xl text-white justify-center mx-auto text-center animate-slideInLeft">Níže se nachází mapa s jednotlivými spolkovými zeměmi Německa. Při rozkliknutí jednotlivého regionu je možné se dozvědět více informací. Některé regiony jsou zmapovány lépe, než jiné. </p>
+                    <p className="text-xl max-w-6xl text-white justify-center mx-auto text-center animate-slideInLeft">Níže se nachází mapa s jednotlivými spolkovými zeměmi Německa. Při rozkliknutí jednotlivého regionu je možné se dozvědět více informací. Některé regiony jsou zmapovány lépe, než jiné. Všechna data jsou vzata z https://statistik.arbeitsagentur.de/, https://mzv.gov.cz/jnp/cz/zahranicni_vztahy/krajane/krajane_ve_svete/adresare/adresare-nemecko_adresar_krajanskych_spolku.html </p>
                 </div>
                 <div>
                     <div className=" flex justify-center mx-auto animate-slideInLeft">
