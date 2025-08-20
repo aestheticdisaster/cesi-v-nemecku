@@ -19,7 +19,7 @@ export default function SaskoAnhaltsko() {
                     <h2 className="text-2xl text-white animate-fadeIn">Počet Čechů zaměstnaných v dané spolkové zemi (odvádějících sociální pojištění)</h2>
                     <p className="text-white animate-slideInLeft text-xl text-pretty p-5">Data z roku 2014: 270</p>
                     <p className="text-white animate-slideInLeft text-xl text-pretty">Data z roku 2024: 660</p>
-                    <p className="text-white animate-slideInLeft text-xl text-pretty p-5 max-w-6xl text-center"></p>
+                    <p className="text-white animate-slideInLeft text-xl text-pretty p-5 max-w-6xl text-center">Sasko-Anhaltsko se nachází severozápadně od Saska, přičemž podobně jako některé ostatní spolkové země nemá příliš velký počet čechů. Kolem této země se nacházejí atraktivnější oblasti jako Sasko, Berlín, Hesenko, případně i Hamburg, který je pro většinu čechů lákavější. Ekonomika zde není tak silná, ani počet prestižních univerzit. České skupiny jsou zde v minimálním množství a jsou spíše rozptýlené. </p>
                 </div>
             </div>
             <footer className="fixed bottom-10 right-10">
