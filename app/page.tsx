@@ -12,7 +12,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="bg-black">
-      <div className="lg:text-xl text-sm p-2 bg-amber-500 text-center hover:text-white transition-all duration-500 hover:bg-amber-600">K 2.6.2025 byly řešeny technické problémy s GitHub Actions, obsah bude dodán v nejbližší možné době</div>
     <MainNavbar />
     <div>
       <div className="relative min-h-screen bg-wideFlag flex items-center justify-start bg-center bg-cover bg-no-repeat scale-y-90 -mt-14">

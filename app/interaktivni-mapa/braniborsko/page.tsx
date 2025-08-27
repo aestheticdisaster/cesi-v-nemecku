@@ -8,7 +8,7 @@ export default function Braniborsko() {
             <Top />
             <Navbar />
             <h1 className="text-2xl p-4 pl-10 bg-gradient-to-l from-black via-yellow-900 to-yellow-700 text-white">INTERAKTIVNÍ MAPA - REGIONY</h1>
-            <div className="bg-gradient-to-tl from-black via-black to-red-950 mx-auto min-h-screen justify-center">
+            <div className="bg-gradient-to-tl from-black via-black to-red-950 mx-auto min-h-screen justify-center lg:pb-24">
                 <h1 className="text-2xl text-white pl-10 p-5 justify-center mx-auto flex pt-10">Braniborsko</h1>
                 <div className="justify-center flex flex-col items-center">
                     <svg baseProfile="tiny" fill="#660000" height="600" stroke="#999999" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" version="1.2" viewBox="0 0 400 400" width="400" className="w-full max-w-4xl" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
