@@ -18,8 +18,9 @@ export default function OStrance() {
                     <p className="text-xl text-pretty text-white p-5 text-center animate-slideInLeft">K tvorbě stránky bylo využito frameworku Next.js spolu s Tailwind CSS, které umožňují tvořit webové stránky moderním a efektivním způsobem. K samotnému nasazení stránky pak bylo využito GitHub Pages společně s GitHub Actions, které se o celý průběh nasazování starají. Jedná se tak o staticky vyexportovaný web, který s přehledem splňuje účely této semestrální práce, a to předat informace, edukovat, a navést na další zdroje vzdělávání se o dané problematice.</p>
                     <h1 className="text-white text-2xl p-5 mx-auto flex justify-center pt-20 animate-fadeIn">Osobní vztah k problematice</h1>
                     <p className="text-white text-xl p-5 text-center animate-slideInLeft">Německo je mou nejnavštěvovanější zemí ze všech sousedních zemí České republiky. Zároveň se už 8 let učím němčinu na vlastní pěst a měla jsem i tu čest již potkat několik Čechů, kteří dlouhodobě žili a pracovali v Německu (a mimo jiné i v Rakousku). Přes tyto zkušenosti mi rozhodně nechybí motivace toto téma hlouběji zkoumat, a to jak pro vlastní zájem, tak i pro přímočarý účel splnění semestrální práce.</p>
-                    <h1 className="text-white text-2xl p-5 mx-auto flex justify-center pt-20 animate-fadeIn">Použité zdroje (ZATÍM PRACOVNÍ VERZE BEZ FORMÁTOVÁNÍ)</h1>
-                    <p className="text-white text-xl p-5 animate-slideInLeft">Old Town of Munich (Germany), Thomas Wolf, www.foto-tw.de </p>
+                    <h1 className="text-white text-2xl p-5 mx-auto flex justify-center pt-20 animate-fadeIn">Použité zdroje</h1>
+                    <p className="text-white text-xl p-5 animate-slideInLeft text-center">Old Town of Munich (Germany), Thomas Wolf, www.foto-tw.de </p>
+                    <p className="text-white text-xl p-5 animate-slideInLeft text-center">Všechna data z interaktivní mapy jsou vzata z https://statistik.arbeitsagentur.de/, https://mzv.gov.cz/jnp/cz/zahranicni_vztahy/krajane/krajane_ve_svete/adresare/adresare-nemecko_adresar_krajanskych_spolku.html</p>
                 </div>
             </div>
             <Footer />

@@ -31,7 +31,7 @@ export default function Home() {
         <h1 className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Co lze najít na této stránce?</h1>
       </div>
       <div className="flex justify-center text-center max-w-6xl items-center mx-auto">
-        <p className="text-white lg:text-xl text-lg p-5 animate-fadeIn">Stránka slouží jako obecný přehled o české minoritě v Německu, přičemž obsahuje základní informace o menšině a historické aspekty výskytu Čechů na území Německa, dále obsahuje interaktivní mapu s jednotlivými spolkovými zeměmi německa, kde je možné se dozvědět, co v daném regionu lze najít (samozřejmě takové věci, které se nějak pojí k české komunitě).</p>
+        <p className="text-white lg:text-xl text-lg p-5 animate-fadeIn">Stránka slouží jako obecný přehled o české minoritě v Německu, přičemž obsahuje základní informace o menšině a historické aspekty výskytu Čechů na území Německa, dále obsahuje interaktivní mapu s jednotlivými spolkovými zeměmi německa, kde je možné se dozvědět, kolik Čechů v daném regionu pracuje a čím je jejich počet ovlivněn.</p>
       </div>
       <div className="flex justify-center text-center mt-20">
         <h1 className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Proč zrovna Německo?</h1>
