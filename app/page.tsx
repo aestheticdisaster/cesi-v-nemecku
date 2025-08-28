@@ -46,7 +46,7 @@ export default function Home() {
       <div className="flex justify-center text-center mt-20">
         <h1 className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn">Další zajímavosti na jednotlivých stránkách!</h1>
       </div>
-      <div className="flex lg:flex-row flex-col justify-center text-center mt-20">
+      <div className="flex lg:flex-row flex-col justify-center text-center mt-20 lg:pb-32">
         <Link href="/zakladni-informace" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn hover:text-yellow-400 transition-all duration-500">Základní informace</Link>
         <Link href="/o-strance" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn hover:text-yellow-400 transition-all duration-500">O stránce</Link>
         <Link href="/interaktivni-mapa" className="text-white lg:text-3xl text-2xl p-5 animate-fadeIn hover:text-yellow-400 transition-all duration-500">Interaktivní mapa</Link>
