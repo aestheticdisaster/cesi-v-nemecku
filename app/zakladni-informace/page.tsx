@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "../footer";
 import Navbar from "../navbar"
 import Top from "../Top"
@@ -60,6 +61,17 @@ export default function ZakladniInformace() {
                 <p className="text-gray-300 animate-slideInLeft italic max-w-3xl text-center mx-auto">... a musím říct, že všichni Češi jsou milejší než typičtí oškliví Němci</p>
                 <p className="text-white animate-slideInLeft">Je to tak určitý paradox, ačkoliv samozřejmě jde především o zkušenosti a lidí je na světě opravdu mnoho a mnohdy nezáleží na jejich původu a v každém koutě světa najdete hodné, usměvavé lidi, a na úplně stejném místě najdete i hromadu bručounů. Je to celé o temperamentu. Možná i o výchově. Je to ovšem hezký kontrast, že věci nemusí být tak, jak se na první pohled zdají. Může to být zapříčiněno i tím, že se jinak lidé chovají na veřejnosti a jinak v soukromí. Obecně se lidé snaží alespoň trochu přetvářet a chovat se mile, i když jsou vnitřně zrovna ve špatné náladě. Pro Čechy je ovšem charakteristické, že velkou snahu své pocity zahalit nemají. Pokud má někdo špatný den, dá vám to najevo. Samozřejmě jako vždycky, neplatí to univerzálně.</p>
                 <p className="text-white animate-slideInLeft">Pokud si Čechy v Německu shrneme, není to úplně zakořeněná menšina a opravdu velký počet současných Čechů jsou první přistěhovalou generací. Je tak možné, že do budoucna se komunita rozšíří a budeme svědky něčeho jako v USA, kde můžeme narazit na opravdu shromážděné komunity. V Německu jsou Češi spíše rozptýlení, jedinými ucelenějšími komunitami jsou ty v Sasku a v Bavorsku, ale ani tam nemáte vyloženě nějaká místa, kde každý bude mluvit česky. Pokud takové místo je, jedná se tak především o spolky a české školy. Potřebu českých škol vnímají první generace Čechů, kteří si všímají, že jejich děti ztrácí kontakt s češtinou a českou kulturou obecně. Je to tedy snaha, jak na svůj původ nezapomenout. Přesto se ale často děje, že tyto děti nakonec mluví lépe neměcky a češtinou jen lámaně. Jsou ovšem jedinci, co se stále identifikují jako Češi, i přesto, že by se s rodilým mluvčím nedomluvili na 100% a rozhodně jim šlo špatně vtipkovat kvůli malé slovní zásobě. Současné první generace se většinou sice učí němčinu, ale již to není vnímáno jako naprostá povinnost, což umožňuje podmínky pro vzrůst čistě česky hovořících komunit. Příval Čechů se každým rokem zvětšuje, ostatně jak je i vidět v datech obsažených v Interaktivní mapě. Nejsou tak samozřejmě jedinou národností, v současné době je v Německu opravdu vělký počet cizinců. Tudíž se dá do bodoucna očekávat, že v Německu vzroste půda pro nové alochtonní menšiny, Čechů včetně. </p>
+              </div>
+              <div className="text-left flex mx-auto justify-center max-w-6xl">
+                <h2 className="text-2xl p-5 mt-10 text-white animate-fadeIn">Češi v Německu v jiných zdrojích</h2>
+              </div>
+              <div className="flex max-w-6xl mx-auto text-xl text-pretty flex-col space-y-10 lg:pb-32">
+                <p className="text-white animate-slideInLeft">Stránka Jak do Německa obsahuje cenné informace pro život v Německu, jako jsou obecné informace o povinnostech občana, výpis svátků, různé tipy, včetně učení se jazyka a mimo jiné i rozhovory s Čechy žijících v Německu:</p>
+                <Link href="https://jakdonemecka.cz/" className="text-yellow-400 hover:text-yellow-200">Jak do Německa</Link>
+                <p className="text-white animate-slideInLeft">Pro odlehčení a zábavu existuje YouTube kanál, který se touto problematikou zabývá, ale spíše z hlediska zábavy než čistě edukativního obsahu. </p>
+                <Link href="https://www.youtube.com/@CesivNemecku/" className="text-yellow-400 hover:text-yellow-200">YouTube - Češi v Německu</Link>
+                <p className="text-white animate-slideInLeft">Pro aktivní konverzování a nejnovější informace od Čechů a Slováků v Německu slouží skupina na Facebooku Češi a Slováci v Německu, kde kromě tazatelů a současně na území Německa žijicích Čechů a Slováků zvěřejňují příspěvky i české a slovenské spolky</p>
+                <Link href="https://www.facebook.com/groups/475729449183717/" className="text-yellow-400 hover:text-yellow-200">Češi a Slováci v Německu</Link>
               </div>
             </main>
             <Footer />
